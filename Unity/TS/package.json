@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'Hello'"
+  },
+  "dependencies": {
+    "aptos": "^1.5.0",
+    "chrome-remote-interface": "^0.31.3",
+    "source-map-support": "^0.5.21",
+    "typeof2": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13"
+  }
+}

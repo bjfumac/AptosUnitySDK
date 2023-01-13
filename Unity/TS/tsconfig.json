@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "jsx": "preserve",
+        "experimentalDecorators": true,
+        "esModuleInterop":true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "./node_modules/@types",
+            "../Assets/Puerts/Typing",
+            "../Assets/Gen/Typing",
+        ]
+    },
+    "include":[
+        "./src/*.ts", "src/Example/TransferCoin.ts", "src/Example/Common.ts",
+    ]
+}
